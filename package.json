@@ -1,0 +1,24 @@
+{
+  "name": "faq-accordion",
+  "version": "1.0.0",
+  "description": "faq-accordion-card-main",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscabezasdev/faq-accordion.git"
+  },
+  "keywords": [],
+  "author": "Luis Cabezas <luiscabezas25@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luiscabezasdev/faq-accordion/issues"
+  },
+  "homepage": "https://github.com/luiscabezasdev/faq-accordion#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0"
+  }
+}
