@@ -1,0 +1,9 @@
+$color-primary: hsl(238, 29%, 16%);
+$color-primary-red: hsl(14, 88%, 65%);
+
+body {
+  background-color: $color-primary;
+  h1 {
+    color: $color-primary-red;
+  }
+}
