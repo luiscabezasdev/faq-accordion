@@ -19,5 +19,21 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: space-between;
   background-color: white;
+}
+
+.image__main {
+  background-image: url('../images/illustration-woman-online-desktop.svg');
+  background-image: no-repeat;
+  background-image: center;
+  background-size: cover;
+  background-image: fixed;
+  
+
+  /* img {
+    position: relative;
+    left: 55px;
+  } */
 }
