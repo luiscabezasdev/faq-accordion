@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 body {
   font-family: "Kumbh Sans", sans-serif;
-  background-color: #1d1e35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  height: 100vh;
+  /* background-color: $color-gradient-violet; */
+  background: linear-gradient(45deg, #6565e7, #af67e9);
 }
 body h1 {
   color: #f47c57;
@@ -11,14 +17,37 @@ body h1 {
   display: flex;
   justify-content: space-between;
   background-color: white;
+  max-width: 800px;
+  height: 400px;
+  border-radius: 25px;
+  /*  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); */
 }
 
 .image__main {
-  background-image: url("../images/illustration-woman-online-desktop.svg");
-  background-image: no-repeat;
+  background-image: url("../images/bg-pattern-desktop.svg");
+  /* background-image: no-repeat;
   background-image: center;
   background-size: cover;
-  background-image: fixed;
+  background-image: fixed; */
+  /* .image__desktop {
+    width: 400px;
+    z-index: 10;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  } */
+  /* .image__shadow {
+     width: 400px;
+     position: relative;
+     top: -2%;
+     left: 30%;
+     transform: translate(-50%, -50%);
+   }
+  */
   /* img {
     position: relative;
     left: 55px;
