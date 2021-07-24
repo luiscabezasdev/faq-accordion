@@ -9,9 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: auto; */
   height: 100vh;
-  /* background-color: $color-gradient-violet; */
   background: linear-gradient(-45deg, #6565e7, #af67e9);
 }
 
@@ -63,10 +61,90 @@ body {
   font-size: 13px;
   padding: 1em 0.5em;
   border-bottom: 1px solid gray;
+  cursor: pointer;
 }
 .container .content p img {
   width: 10px;
   height: 6px;
+}
+.container .content h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8em 0.5em;
+  font-size: 13px;
+}
+.container .content h3 img {
+  width: 10px;
+  height: 6px;
+  transform: rotate(180deg);
+}
+.container .content h3 + p img {
+  display: none;
+}
+.container .content p:hover {
+  color: #f47c57;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    display: block;
+    width: 375px;
+    height: 550px;
+  }
+  .container .image__main {
+    background-image: url("../images/bg-pattern-desktop.svg");
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position: 47px -130px;
+    width: auto;
+  }
+  .container .image__main .image__desktop {
+    width: 250px;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container .image__main .image__shadow {
+    width: 100px;
+    position: relative;
+    bottom: 50%;
+    left: -38%;
+    transform: translate(-50%, -115%);
+    z-index: 10;
+  }
+  .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    margin-top: -60px;
+    padding: 1em 1em;
+  }
+  .container .content h1 {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 0.8em 0;
+  }
+  .container .content p {
+    padding: 1.2em 0.5em;
+  }
+  .container .content h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8em 0.5em;
+    font-size: 13px;
+  }
+  .container .content h3 img {
+    width: 10px;
+    height: 6px;
+    transform: rotate(180deg);
+  }
+  .container .content h3 + p img {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
